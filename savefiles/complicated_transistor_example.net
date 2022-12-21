@@ -1,0 +1,13 @@
+* ill leave this in case we use it (unlikely)
+
+* XL1 VSS VDD Node_2 out BUF_X1
+* .model npn_Q2  NPN( IS=2.5u BF=204 )
+* Q2 Node_3 Node_7 Node_6 0 npn_Q2
+* .model npn_Q1  NPN( IS=2.4u BF=204.24 )
+* Q1 Node_4 Node_8 Node_9 0 npn_Q1
+* R4 5v Node_3 600
+* R3 5v Node_4 1k
+* R2 Node_9 0 10
+* R1 Node_6 0 200
+* C2 Node_3 Node_8 48f
+* C1 Node_7 Node_4 48f

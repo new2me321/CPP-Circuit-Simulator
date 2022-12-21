@@ -1,0 +1,6 @@
+* three resistors in series
+
+V1 N1 0 5
+R1 N2 N1 100
+R2 N3 N2 100
+R3 0 N3 100

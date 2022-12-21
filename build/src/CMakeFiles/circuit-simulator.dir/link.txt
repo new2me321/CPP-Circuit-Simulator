@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/circuit-simulator.dir/main.cpp.o -o ../circuit-simulator  GUI/libGUI.a Solver/libSolver.a Circuit/libCircuit.a -lsfml-system -lsfml-window -lsfml-graphics /usr/lib/x86_64-linux-gnu/libboost_filesystem.so /usr/lib/x86_64-linux-gnu/libboost_system.so 

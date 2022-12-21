@@ -1,0 +1,10 @@
+.tf v(vo) vs
+r1 vs 1 1k
+r2 1 2 500
+r3 2 vo 800
+r4 2 gnd 200
+r5 1 4 1.5k
+r6 4 vo 700
+r7 vo 5 100
+r8 5 gnd 900
+vs vs gnd 1V
